@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html{
+    font-size: 10px;
+}
+
+h1{
+    text-align: center;
+    margin: 20px;
+}
+
+div:nth-child(1),
+div:nth-child(2),
+div:nth-child(3){
+    display: inline-block;
+    padding: 10px;
+}
+
+section{
+    text-align: center;
+}
+
+div{
+    margin: 0 5px;
+    height: 150px;
+    width: 150px;
+}
+
+div:nth-of-type(1){
+    background-color: goldenrod;
+}
+div:nth-of-type(2){
+    background-image: url("../img/xinyi-w-qjCHPZbeXCQ-unsplash.jpg");
+}div:nth-of-type(3){
+    background: linear-gradient(red 20%, yellow 80%);
+}
